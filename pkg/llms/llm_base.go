@@ -160,6 +160,7 @@ var ValidOpenAILLMs = map[string]bool{
 	"gpt-4-1106-preview": true,
 	"gpt-4-turbo":        true,
 	"gpt-4o":             true,
+	"gpt-4o-mini":        true,
 }
 
 var ValidAnthropicLLMs = map[string]bool{
@@ -182,6 +183,7 @@ var MaxLLMTokensMap = map[string]int{
 	"gpt-4-1106-preview":         128_000,
 	"gpt-4-turbo":                128_000,
 	"gpt-4o":                     128_000,
+	"gpt-4o-mini":                128_000,
 	"claude-instant-1":           100_000,
 	"claude-2":                   100_000,
 	"claude-3-5-sonnet-20240620": 200_000,
